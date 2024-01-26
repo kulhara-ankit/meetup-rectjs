@@ -5,23 +5,19 @@ export const NotFoundContainer = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
+  height: 100vh;
 `
 
-export const NotFoundHeading = styled.h1`
-  color: #64748b;
-  font-size: 32px;
-  font-family: 'Roboto';
-`
-export const NotFoundPara = styled.p`
-  color: #7b8794;
-  font-size: 14px;
-  font-family: 'Roboto';
-`
-
-export const Img = styled.img`
+export const NotFoundImg = styled.img`
   height: 250px;
-  width: 250px;
+`
+export const NotFoundHeading = styled.h1`
+  margin: 8px;
+  font-size: 30px;
+  color: #64748b;
 `
 
-export default NotFoundContainer
+export const NotFoundDesc = styled.p`
+  color: #7b8794;
+  margin-top: 5px;
+`

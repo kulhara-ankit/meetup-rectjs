@@ -43,7 +43,7 @@ export const GreetingsTopic = styled.h1`
   margin-top: 5px;
 `
 
-export const InputName = styled.h1`
+export const Name = styled.h1`
   color: #2563eb;
   margin-bottom: 5px;
 `

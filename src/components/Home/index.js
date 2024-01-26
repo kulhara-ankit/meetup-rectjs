@@ -7,7 +7,7 @@ import {
   LinkEl,
   RegisterButton,
   GreetingsTopic,
-  InputName,
+  Name,
   MeetupImage,
 } from './styledComponents'
 
@@ -56,7 +56,7 @@ const Home = props => {
             <HomeContainer>
               {registerStatus ? (
                 <>
-                  <InputName>Hello {name}</InputName>
+                  <Name>Hello {name}</Name>
                   <GreetingsTopic>Welcome to {topicName}</GreetingsTopic>
                   <MeetupImage
                     src="https://assets.ccbp.in/frontend/react-js/meetup/meetup-img.png"

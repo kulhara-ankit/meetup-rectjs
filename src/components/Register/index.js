@@ -90,12 +90,7 @@ const Register = props => (
                 onChange={onChangeName}
               />
               <InputLabel>TOPICS</InputLabel>
-              <Select
-                type="dropdown"
-                value={topic}
-                onChange={onChangeTopic}
-                alt="ARTS_AND_CULTURE"
-              >
+              <Select type="dropdown" value={topic} onChange={onChangeTopic}>
                 {topicsList.map(eachTopic => (
                   <Option key={eachTopic.id} value={eachTopic.id}>
                     {eachTopic.displayText}
